@@ -25,15 +25,11 @@
       loop: "{{ instances }}"
       register: ec2_output
 
-    # - name: print ec2 output
-    #   ansible.builtin.debug:
-    #     msg: "{{ ec2_output }}"
-
     - name: create route53 recordd
       amazon.aws.route53:
         state: present
         zone: "{{ domain_name }}"
-        record: "{{ item.item }}.{{ domain_name }}" # mongodb.daws86s.fun
+        record: "{{ item.item }}.{{ domain_name }}" # mongodb.thiscomeback.fun
         type: A
         ttl: 2
         value: "{{ item.instances[0].private_ip_address }}"
@@ -41,7 +37,6 @@
       loop: "{{ ec2_output.results }}"
     
     #creating record for public ip only for front end
-
     - name: create route53 record for front
       amazon.aws.route53:
         state: present
