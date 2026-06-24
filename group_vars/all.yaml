@@ -3,3 +3,5 @@ REDIS_HOST: redis.thiscomeback.fun
 CATALOGUE_HOST: catalogue.thiscomeback.fun
 CART_HOST: cart.thiscomeback.fun
 MYSQL_HOST: mysql.thiscomeback.fun
+USER_HOST: user.thiscomeback.fun
+RABBITMQ_HOST: rabbitmq.thiscomeback.fun
