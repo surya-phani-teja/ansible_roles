@@ -1,3 +1,5 @@
 MONGODB_HOST: mongodb.thiscomeback.fun
 REDIS_HOST: redis.thiscomeback.fun
 CATALOGUE_HOST: catalogue.thiscomeback.fun
+CART_HOST: cart.thiscomeback.fun
+MYSQL_HOST: mysql.thiscomeback.fun
