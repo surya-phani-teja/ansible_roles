@@ -1,2 +1,3 @@
 MONGODB_HOST: mongodb.thiscomeback.fun
 REDIS_HOST: redis.thiscomeback.fun
+CATALOGUE_HOST: catalogue.thiscomeback.fun
