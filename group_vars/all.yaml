@@ -5,3 +5,5 @@ CART_HOST: cart.thiscomeback.fun
 MYSQL_HOST: mysql.thiscomeback.fun
 USER_HOST: user.thiscomeback.fun
 RABBITMQ_HOST: rabbitmq.thiscomeback.fun
+SHIPPING_HOST: shipping.thiscomeback.fun
+PAYMENT_HOST: payment.thiscomeback.fun
