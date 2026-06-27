@@ -2,6 +2,6 @@
   ansible.builtin.debug:
    msg: hi
 
-   - name: testing include and import
+- name: testing include and import
   ansible.builtin.debug:
    msg: hi
