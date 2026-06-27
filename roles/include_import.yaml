@@ -1,0 +1,6 @@
+- name: include vs imoport
+  hosts: local
+  connection: local
+  become: yes
+  roles:
+  - include_import
